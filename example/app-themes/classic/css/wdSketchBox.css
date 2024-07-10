@@ -1,0 +1,24 @@
+/**
+ * Theme css file for the wdSketchBox class
+ * File: /assets/app-themes/<theme>/css/wdSketchBox.css
+ *
+ * @author     WYSIWYG Data development
+ * @copyright  (c) 2024 WYSIWYG Data
+ */
+
+.wd_SkBxWrapper {
+  color: #457B9D;
+}
+
+#wd_SkBxForm, #wd_SkBxControls {
+  border: 1px solid #00456a;
+  border-radius: 5px;
+}
+
+.wd_SkBxColour {
+  border: 2px solid transparent;
+}
+
+#wd_SkBxCanvas {
+  border: 1px solid #00456a;
+}

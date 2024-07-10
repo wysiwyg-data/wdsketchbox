@@ -1,0 +1,47 @@
+/**
+ * Main example css file
+ * File: /assets/css/example.css
+ *
+ * @author     WYSIWYG Data development
+ * @copyright  (c) 2024
+**/
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: tahoma, helvetica, verdana, arial, sans-serif;
+  font-size: 14px;
+}
+
+#wd_HeaderDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#wd_HeaderDiv p {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#wd_ContentDiv {
+  position: fixed;
+  top: 82px;
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+}
+
+#wd_FooterDiv {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+#wd_FooterDiv p {
+  margin: 5px 0 5px 0;
+  font-size: .9em;
+  text-align: center;
+}

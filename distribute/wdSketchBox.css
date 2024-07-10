@@ -1,0 +1,84 @@
+/**
+ * Main css file for the wdSketchBox class
+ * File: /assets/css/wdSketchBox.css
+ *
+ * @author     WYSIWYG Data development
+ * @copyright  (c) 2024 WYSIWYG Data
+ */
+
+
+/* Grid wrapper div */
+.wd_SkBxWrapper {
+  font-family: tahoma, helvetica, verdana, arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+
+/* FlexGrid */
+.wd_SkBx-rnw {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+}
+.wd_SkBx-rw {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+}
+
+
+/* Various divs */
+#wd_SkBxForm {
+  margin: 0 40px 20px 0;
+  padding: 10px;
+}
+#wd_SkBxControls {
+  width: 120px;
+  margin-right: 9px;
+  text-align: center;
+}
+
+#wd_SkBxColours {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.wd_SkBxColour {
+  justify-content: space-between;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+}
+
+.wd_SkBxTool {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.wd_SkBxSliderOrient {
+    writing-mode: vertical-lr; /* fix for Chrome */
+    writing-mode: bt-lr; /* fix for Edge */
+    direction: rtl;
+    cursor: pointer;
+}
+
+
+/* HTML elements styling */
+img {
+  border: 0;
+}
+
+.wd_SkBxHead1 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.wd_SkBxHead2 {
+  font-weight: bold;
+}
