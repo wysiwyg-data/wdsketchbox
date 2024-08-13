@@ -1,5 +1,5 @@
 /**
- * wdSketchBox Plug-In 1.0
+ * wdSketchBox Plug-In 1.0.1
  *
  * File: wdSketchBox.js
  *
@@ -370,8 +370,8 @@ class wdSketchBox
 
     elementSize(pElement)
     {
-        pElement.setAttribute('width', 800);
-        pElement.setAttribute('height', 600);
+        pElement.setAttribute('width', this.cWidth + 'px');
+        pElement.setAttribute('height', this.cHeight + 'px');
     }
 
     elementOffset(pElement)
